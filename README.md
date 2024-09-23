@@ -11,6 +11,10 @@ You can safely delete this README.md file or change it for your own project. Ple
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
 `python3 -m http.server`
+xMbFBDzmzxeQ42W Harry
+G3ac5qUxERds9bU Ron
+3e9eeFsfRMz27Em Hermione
+
 
 A blue button should appear to click: _Make Public_,
 

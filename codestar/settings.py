@@ -30,11 +30,11 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [
-    
+ALLOWED_HOSTS = [ '8000-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io',
     '8000-fenasti-djangoblog-ycilopv5nvl.ws-eu116.gitpod.io',
                 '.herokuapp.com',
                 '8080-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io',
+                
 ]
 
 
@@ -96,6 +96,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
+    "https://8000-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io",
     "https://*.codeinstitute-ide.net/",
     "https://*.herokuapp.com",
 ]
