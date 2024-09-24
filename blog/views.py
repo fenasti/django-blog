@@ -1,7 +1,14 @@
 from django.shortcuts import render
-from django.http import HttpResponse
+from django.views import generic
+from .models import Post
 
+
+# from django.http import HttpResponse
+# def blog_response(request):
+#     return HttpResponse("Hello, Blog!")
 # Create your views here.
 
-def blog_response(request):
-    return HttpResponse("Hello, Blog!")
+
+class PostList(generic.ListView):
+    queryset = Post.objects.all()
+    template_name = "post_list.html"
