@@ -32,13 +32,16 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '8000-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io',
-    '8000-fenasti-djangoblog-ycilopv5nvl.ws-eu116.gitpod.io',
+ALLOWED_HOSTS = [ '8000-fenasti-djangoblog-u932hbbwx7w.ws.codeinstitute-ide.net',
                 '.herokuapp.com',
-                '8080-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io',
-                
 ]
 
+# ALLOWED_HOSTS = [ '8000-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io',
+#     '8000-fenasti-djangoblog-ycilopv5nvl.ws-eu116.gitpod.io',
+#                 '.herokuapp.com',
+#                 '8080-fenasti-djangoblog-rvbxnjlurvj.ws-eu116.gitpod.io',
+                
+# ]
 
 # Application definition
 
