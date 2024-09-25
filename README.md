@@ -10,6 +10,8 @@ You can safely delete this README.md file or change it for your own project. Ple
 
 To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
+pip install -r requirements.txt
+
 `python3 -m http.server`
 xMbFBDzmzxeQ42W Harry
 G3ac5qUxERds9bU Ron
