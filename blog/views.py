@@ -51,6 +51,7 @@ def post_detail(request, slug):
 
     comment_form = CommentForm()
 
+    print("About to render template")
 
     return render(
         request,
